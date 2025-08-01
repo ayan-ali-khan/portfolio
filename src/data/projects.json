@@ -1,28 +1,52 @@
 {
   "projects" : [
     {
-      "title": "Forest Adventure",
-      "src": "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "id": "1",
+      "title": "Quick AI",
+      "img": "/ai.png",
+      "live": "https://quick-ai-plum-eight.vercel.app",
+      "repo": "https://github.com/ayan-ali-khan/quick-ai",
+      "techStack": "React, Node.js, Express, Axios, CORS, JavaScript, NeonDB, SQL, Cloudinary, Gemini API, Tailwind CSS, Clerk"
     },
     {
-      "title": "Valley of life",
-      "src": "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "id": "2",
+      "title": "ZCRUM - Project Management App",
+      "img": "/zcrum.png",
+      "live": "https://zcrum-zeta.vercel.app",
+      "repo": "https://github.com/ayan-ali-khan/project-management-app",
+      "techStack": "React.js, Next.js, Tailwind CSS, JavaScript, Prisma, PostgreSQL, Clerk, Zustand, Radix UI"
     },
     {
-      "title": "Sala behta hi jayega",
-      "src": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "id": "3",
+      "title": "Quick Chat App",
+      "img": "/chat.png",
+      "live": "https://quick-chat-zeta.vercel.app",
+      "repo": "https://github.com/ayan-ali-khan/quick-chat",
+      "techStack": "React, Node.js, Tailwind CSS, Express, MongoDB (Mongoose), Socket.IO, JWT, JavaScript"
     },
     {
-      "title": "Camping is for pros",
-      "src": "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "id": "4",
+      "title": "Crypto Place",
+      "img": "/crypto.png",
+      "live": "https://crypto-place-virid.vercel.app/",
+      "repo": "https://github.com/ayan-ali-khan/crypto-place",
+      "techStack": "React, Node.js, Express, JavaScript, Crypto API, Google Charts, CSS"
     },
     {
-      "title": "The road not taken",
-      "src": "https://images.unsplash.com/photo-1507041957456-9c397ce39c97?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "id": "5",
+      "title": "Weather App",
+      "img": "/weather.png",
+      "live": "https://real-time-weather-website.vercel.app/",
+      "repo": "https://github.com/ayan-ali-khan/Real-Time-Weather-Website",
+      "techStack": "HTML, CSS, JavaScript, Weather API"
     },
     {
-      "title": "The First Rule",
-      "src": "https://assets.aceternity.com/the-first-rule.png"
+      "id": "6",
+      "title": "Spotify UI Clone",
+      "img": "/spotify.png",
+      "live": "https://spotify-clone-by-ayan.netlify.app/",
+      "repo": "https://github.com/ayan-ali-khan/Spotify-Clone",
+      "techStack": "HTML, CSS"
     }
   ]
 }

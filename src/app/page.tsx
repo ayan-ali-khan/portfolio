@@ -1,3 +1,4 @@
+import ContactSection from "@/components/ContactSection";
 import FeaturedProjects from "@/components/FeaturedProjects";
 import HeroSection from "@/components/HeroSection";
 
@@ -7,6 +8,7 @@ export default function Home() {
       {/* <div className="text-2xl text-center">Hello</div> */}
       <HeroSection/>
       <FeaturedProjects />
+      <ContactSection />
     </main>
   );
 }
