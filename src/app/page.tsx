@@ -9,6 +9,9 @@ export default function Home() {
       <HeroSection/>
       <FeaturedProjects />
       <ContactSection />
+      <footer>
+        <p className='font-semibold text-base text-center md:text-md text-neutral-300 max-w-lg mx-auto'>Made with ❤️ by Ayan</p>
+      </footer>
     </main>
   );
 }

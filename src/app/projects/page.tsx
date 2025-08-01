@@ -1,9 +1,8 @@
 'use client';
-import React from 'react'
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import projects from '@/data/projects.json';
-import Image from 'next/image';
 import Link from 'next/link';
+import { IconBrandGithub } from '@tabler/icons-react';
 
 function page() {
   return (
@@ -53,8 +52,7 @@ function page() {
                             className="px-2 py-2 rounded-3xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
                             <Link href={proj.repo}>
-                                <Image src='/github.png' alt="" width={20} height={20}
-                            className='m-0'/>
+                            <IconBrandGithub/>
                             </Link>
                         </CardItem>
                         </div>

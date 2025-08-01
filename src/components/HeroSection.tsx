@@ -6,7 +6,7 @@ import { FlipWords } from '@/components/ui/flip-words';
 function HeroSection() {
     const words = ["better", "cute", "beautiful", "modern"];
   return (
-    <div className='h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-1 md:py-3'>
+    <div className='h-auto md:h-[30rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-1 md:py-3'>
 
         <Spotlight
         className="-top-40 left-0 md:-top-20 md:left-60"

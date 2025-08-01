@@ -1,11 +1,9 @@
 "use client";
-import React, { useState } from "react";
 import { FloatingNav } from "./ui/floating-navbar";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 
 function Navbar({ className }: { className?: string }) {
-    const [active, setActive] = useState<string | null>(null);
 
     const navItems = [
         {
@@ -18,7 +16,7 @@ function Navbar({ className }: { className?: string }) {
         },
         {
         name: "Contact",
-        link: "/contact"
+        link: "#contact"
         },
     ];
 
