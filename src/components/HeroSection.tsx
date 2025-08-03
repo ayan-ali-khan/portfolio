@@ -14,7 +14,7 @@ function HeroSection() {
         />
 
         <div className='p-2 relative z-10 w-full text-center '>
-            <h1 className='mt-20 md:mt-2 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>Full Stack Developer
+            <h1 className='mt-20 md:mt-2 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>Web Developer
                 {/* <FlipWords words={words} className='font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'/> */}
             </h1>
             

@@ -24,7 +24,7 @@ function FeaturedProjects() {
       src: proj.img
     }))
   return (
-    <div className='pb-5'>
+    <div className='pb-5 px-2'>
         <h3 className='my-10 md:mt-2 text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 p-5 text-center'>Featured Projects</h3>
         <Link href={"/projects"}>
             <FocusCards cards={cards} />

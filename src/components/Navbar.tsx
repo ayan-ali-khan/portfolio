@@ -1,7 +1,6 @@
 "use client";
 import { FloatingNav } from "./ui/floating-navbar";
 import { cn } from "@/utils/cn";
-import Link from "next/link";
 
 function Navbar({ className }: { className?: string }) {
 
