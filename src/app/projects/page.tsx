@@ -3,11 +3,12 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import projects from '@/data/projects.json';
 import Link from 'next/link';
 import { IconBrandGithub } from '@tabler/icons-react';
+import Image from "next/image";
 
 function page() {
   return (
-    <div className='min-h-screen bg-black py-12 pt-26'>
-        <h1 className='mt-20 md:mt-2 text-4xl md:text-6xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>All Projects</h1>
+    <div className='min-h-screen bg- py-12 pt-26 dark:bg-black/97 dark:text-white'>
+        <h1 className='mt-20 md:my-2 text-4xl md:text-6xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>All Projects</h1>
 
         <div className='flex flex-wrap justify-center'>
             {projects.projects.map((proj) => (
@@ -28,7 +29,7 @@ function page() {
                         {proj.techStack}
                         </CardItem>
                         <CardItem translateZ="100" className="w-full mt-4">
-                        <img
+                        <Image
                             src={proj.img}
                             height="1000"
                             width="1000"
@@ -39,12 +40,12 @@ function page() {
                         <div className="flex justify-between items-center mt-20">
                         <CardItem
                             translateZ={20}
-                            as="a"
-                            href={proj.live}
-                            target="__blank"
+                            as="button"
                             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                             >
-                            Live →
+                            <Link href={proj.live}>
+                                Live →
+                            </Link>
                         </CardItem>
                         <CardItem
                             translateZ={20}
